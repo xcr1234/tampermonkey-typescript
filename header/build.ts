@@ -1,4 +1,4 @@
-import {GmFunctions, UserScript} from "../src/UserScript";
+import {GmFunctions, UserScript} from "./UserScript";
 
 const fs = require('fs')
 const path = require('path')

@@ -1,4 +1,4 @@
-import {GmFunctions, RunAt, UserScript} from "../src/UserScript";
+import {GmFunctions, RunAt, UserScript} from "./UserScript";
 import build from "./build";
 
 const script: UserScript = {
