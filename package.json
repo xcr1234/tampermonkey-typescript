@@ -1,0 +1,26 @@
+{
+  "name": "tempermonkey-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build:header": "ts-node header/index.ts",
+    "dev": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "ts-loader": "^4.2.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
