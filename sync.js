@@ -58,7 +58,7 @@ module.exports = async (header) => {
         path: path.resolve(__dirname, 'dist/Tampermonkey/sync')
     }
 
-    console.log(`当前为WebDav同步编译模式，编译到的目录为${result.path}，文件名：${result.path}`)
+    console.log(`当前为WebDav同步编译模式，编译到的目录为${result.path}，文件名：${result.filename}`)
 
     return result
 }
