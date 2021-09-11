@@ -7,7 +7,6 @@
   "scripts": {
     "build": "webpack",
     "build:header": "ts-node header/index.ts",
-    "watch": "webpack --watch",
     "sync": "webpack --watch --sync yes",
     "start:server": "node server.js"
   },
