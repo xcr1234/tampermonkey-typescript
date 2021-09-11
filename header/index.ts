@@ -6,10 +6,9 @@ const script: UserScript = {
     namespace: 'https://github.com/xcr1234',
     description: '一个hello world，油猴脚本脚手架',
     version: '1.0.0',
-    includes: ['*'],
+    includes: ['*://*'],
     grants: [
-        GmFunctions.unsafeWindow,
-        'window.close'
+        GmFunctions.unsafeWindow
     ],
     runAt: RunAt.document_end
 }

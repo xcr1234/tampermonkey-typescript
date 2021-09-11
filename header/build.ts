@@ -109,7 +109,7 @@ export default (script: UserScript, destName: string) => {
     if (script.nocompat) {
         result += '// @nocompat'.padEnd(padLen, ' ') + script.nocompat + '\n'
     }
-    result += '// ==UserScript==\n'
+    result += '// ==/UserScript==\n'
 
     fs.writeFileSync(dest, result)
 
