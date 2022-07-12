@@ -36,5 +36,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie <= 8"
+  ]
 }
