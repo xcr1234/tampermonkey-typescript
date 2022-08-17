@@ -66,3 +66,12 @@ console.log('hello world')
 ## 发布
 
 执行 `npm run build` 编译最新的文件
+
+
+## 备注
+
+本项目中引用以下资源
+
+[tempermonkey.d.ts](https://www.cnblogs.com/stumpx/p/15211436.html)
+
+[server.js](https://github.com/Tampermonkey/tamperdav/blob/master/server.js)  （有修改）
