@@ -104,7 +104,9 @@ export default (script: UserScript, destName: string) => {
         }
     }
     if (script.noframes) {
-        result += '@noframes\n'
+        //此处之前少了 “//”，感谢 没礼貌的芬兰人 的评论
+        //https://gitee.com/ironV/tampermonkey-typescript/blob/master/header/build.ts#note_12538220
+        result += '// @noframes\n'
     }
     if (script.nocompat) {
         result += '// @nocompat'.padEnd(padLen, ' ') + script.nocompat + '\n'
