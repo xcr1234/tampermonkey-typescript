@@ -2,6 +2,7 @@
 
 特性
 - TypeScript完全支持
+- Babel完全支持 使用目前主流的`@babel/preset-env`
 - 热更新部署 每次更新会自动同步到油猴中，不需要手动复制粘贴！
 
 
@@ -66,3 +67,12 @@ console.log('hello world')
 ## 发布
 
 执行 `npm run build` 编译最新的文件
+
+
+## 备注
+
+本项目中引用以下资源
+
+[tempermonkey.d.ts](https://www.cnblogs.com/stumpx/p/15211436.html)
+
+[server.js](https://github.com/Tampermonkey/tamperdav/blob/master/server.js)  （有修改）
