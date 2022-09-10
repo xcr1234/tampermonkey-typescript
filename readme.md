@@ -29,7 +29,7 @@ console.log('hello world')
 
 头部区域的开发是在`header/index.ts`，使用了typescript，这样会有IDE完全支持，而不是单纯的写几个注释
 
-![img](.github/img_1.png)
+![img](https://s1.328888.xyz/2022/09/11/KLEVh.png)
 
 
 开发完毕后执行`npm run build:header`编译
@@ -38,7 +38,7 @@ console.log('hello world')
 
 正文开发是在`src/index.ts`，在开发时，如果使用到`GM_`相关函数，有完整的声明支持：
 
-![img](.github/img.png)
+![img](https://s1.328888.xyz/2022/09/11/KEv6g.png)
 
 
 ## 热部署
@@ -51,16 +51,16 @@ console.log('hello world')
 
 在油猴中设置
 
-![img](.github/img_4.png)
+![img](https://s1.328888.xyz/2022/09/11/KLm90.png)
 
 
 3.点 + ，把第1步编译的结果`dist/main.js`粘贴进去 保存
 
-![img](.github/img_5.png)
+![img](https://s1.328888.xyz/2022/09/11/KLLHn.png)
 
-![img](.github/img_2.png)
+![img](https://s1.328888.xyz/2022/09/11/KLlFs.png)
 
-![img](.github/img_3.png)
+![img](https://s1.328888.xyz/2022/09/11/KLm90.png)
 
 4.执行 `npm run sync`，现在每次更新就会自动同步到油猴中了，不需要手动粘贴！
 
