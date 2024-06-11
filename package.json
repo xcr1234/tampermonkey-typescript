@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "webpack",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack",
     "build:header": "ts-node header/index.ts",
     "sync": "webpack --watch --sync yes",
     "start:server": "node server.js"
